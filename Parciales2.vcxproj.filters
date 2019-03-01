@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Listas">
+      <UniqueIdentifier>{762de9df-52ce-447d-85ad-2d0d564169c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clases">
+      <UniqueIdentifier>{c52379e1-ce13-4e29-8160-c12c6230870d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tabla">
+      <UniqueIdentifier>{0c100335-e3f0-4359-86e2-451fa5ab9558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Listas\ListaCheta">
+      <UniqueIdentifier>{b0a7808a-3bc1-4c24-9752-4ae05801b7a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Listas\ListaT">
+      <UniqueIdentifier>{dd0d57c8-b899-455c-9405-b36c1548ef48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colas">
+      <UniqueIdentifier>{22546a71-5c04-466c-89f1-69fdc5b2de8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colas\ColaPrioridad">
+      <UniqueIdentifier>{3f075dbf-99be-42c8-91e1-92bdb64fa2bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colas\Cola">
+      <UniqueIdentifier>{c0799263-ef76-44c6-935d-b2cb697af181}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NodoLista.h">
+      <Filter>Clases</Filter>
+    </ClInclude>
+    <ClInclude Include="nodoABB.h">
+      <Filter>Clases</Filter>
+    </ClInclude>
+    <ClInclude Include="Tabla.h">
+      <Filter>Tabla</Filter>
+    </ClInclude>
+    <ClInclude Include="TablaImp.h">
+      <Filter>Tabla</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaChetaImp.h">
+      <Filter>Listas\ListaCheta</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaCheta.h">
+      <Filter>Listas\ListaCheta</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeList.h">
+      <Filter>Listas\ListaT</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeListImp.h">
+      <Filter>Listas\ListaT</Filter>
+    </ClInclude>
+    <ClInclude Include="ABBT.h">
+      <Filter>Clases</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoColaPriori.h">
+      <Filter>Clases</Filter>
+    </ClInclude>
+    <ClInclude Include="ColaPrioridad.h">
+      <Filter>Colas\ColaPrioridad</Filter>
+    </ClInclude>
+    <ClInclude Include="ColaPrioridadImp.h">
+      <Filter>Colas\ColaPrioridad</Filter>
+    </ClInclude>
+    <ClInclude Include="Cola.h">
+      <Filter>Colas\Cola</Filter>
+    </ClInclude>
+    <ClInclude Include="ColaImp.h">
+      <Filter>Colas\Cola</Filter>
+    </ClInclude>
+    <ClInclude Include="nodoCola.h">
+      <Filter>Clases</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TablaImp.cpp">
+      <Filter>Tabla</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaChetaImp.cpp">
+      <Filter>Listas\ListaCheta</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeListImp.cpp">
+      <Filter>Listas\ListaT</Filter>
+    </ClCompile>
+    <ClCompile Include="ColaPrioridadImp.cpp">
+      <Filter>Colas\ColaPrioridad</Filter>
+    </ClCompile>
+    <ClCompile Include="ColaImp.cpp">
+      <Filter>Colas\Cola</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
